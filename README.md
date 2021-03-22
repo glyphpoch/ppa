@@ -14,6 +14,8 @@ EMAIL=your-email-here@domain.ext ./add-packages.sh
 A valid GPG key must be set up for the above command to work.
 
 # Using the PPA:
+
+apt-key is deprecated, fix this...
 ```
 curl -s --compressed "https://glyphpoch.github.io/ppa/KEY.gpg" | sudo apt-key add -
 sudo curl -s --compressed -o /etc/apt/sources.list.d/glyphpoch_ppa.list "https://glyphpoch.github.io/ppa/glyphpoch_ppa.list"
