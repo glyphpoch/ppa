@@ -17,3 +17,20 @@ Description: Fast, cross-platform, OpenGL terminal emulator
  rather than reimplementing their functionality, it manages to provide a
  flexible set of features with high performance.
 
+Package: greenclip
+Version: 3.4-1
+Architecture: amd64
+Maintainer: glyphpoch <glyphpoch@gmail.com>
+Installed-Size: 4550
+Depends: libc6 (>= 2.29), libgmp10, libx11-6, libxau6, libxcb1, libxdmcp6, libxext6, libxrandr2 (>= 2:1.2.99.3), libxss1
+Filename: ./greenclip/greenclip_3.4-1_amd64.deb
+Size: 687696
+MD5sum: 05fe1a693dea9f505e7b751a346f4453
+SHA1: 81f2985df608c48a824bf2325a214889725f0bf6
+SHA256: b9d1023063d65d573daf7725c043c0f8221b0590620140042d731a3c5f005e5a
+Section: misc
+Priority: optional
+Description: Clipboard manager written in Haskell
+ Keeps track of your clipboard history so you can quickly switch
+ between various clipboard contents.
+
