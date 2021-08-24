@@ -17,6 +17,25 @@ Description: Fast, cross-platform, OpenGL terminal emulator
  rather than reimplementing their functionality, it manages to provide a
  flexible set of features with high performance.
 
+Package: alacritty
+Version: 0.8.0-1
+Architecture: amd64
+Maintainer: glyphpoch <glyphpoch@gmail.com>
+Installed-Size: 5563
+Depends: libc6 (>= 2.33), libfontconfig1 (>= 2.12.6), libfreetype6 (>= 2.8), libgcc-s1 (>= 4.2), libxcb1 (>= 1.6)
+Filename: ./alacritty/alacritty_0.8.0-1_amd64.deb
+Size: 1630088
+MD5sum: 5c9f75c0ce29628adc8af29928215268
+SHA1: 0860aa68337c2716cf15d1b201e9cf13d34ef44c
+SHA256: 1f3d859b1cdb49184208ca735cae089419dddb0f19395d415e90657b2510f615
+Section: misc
+Priority: optional
+Description: Fast, cross-platform, OpenGL terminal emulator
+ Alacritty is a modern terminal emulator that comes with sensible defaults, but
+ allows for extensive configuration. By integrating with other applications,
+ rather than reimplementing their functionality, it manages to provide a
+ flexible set of features with high performance.
+
 Package: greenclip
 Version: 3.4-1
 Architecture: amd64
